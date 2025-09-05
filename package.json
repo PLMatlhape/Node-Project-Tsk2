@@ -1,0 +1,43 @@
+{
+  "name": "node-project-tsk2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "build": "tsc",
+    "dev": "ts-node",
+    "callback": "ts-node src/call_back/CallBack.ts",
+    "promise": "ts-node src/promise/Promise.ts",
+    "async": "ts-node src/async_await/Asynchronous.ts",
+    "clean": "rimraf dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLMatlhape/Node-Project-Tsk2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "async",
+    "callbacks",
+    "promises",
+    "weather",
+    "news"
+  ],
+  "author": "Pule Matlhape",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PLMatlhape/Node-Project-Tsk2/issues"
+  },
+  "homepage": "https://github.com/PLMatlhape/Node-Project-Tsk2#readme",
+  "devDependencies": {
+   "@types/node": "^24.3.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.6.1",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
