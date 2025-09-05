@@ -1,4 +1,4 @@
-import { WeatherData, NewsResponse, Coordinates, OpenWeatherResponse, WeatherApiResponse, NewsApiResponse, GuardianApiResponse } from '../types/index';
+import type { WeatherData, NewsResponse, Coordinates, OpenWeatherResponse, WeatherApiResponse, NewsApiResponse, GuardianApiResponse } from '../types/index';
 import { env, validateWeatherConfig, validateNewsConfig } from './Configs';
 import * as https from 'https';
 import * as http from 'http';

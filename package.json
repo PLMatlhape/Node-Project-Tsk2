@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "build": "tsc",
     "dev": "ts-node",
     "callback": "ts-node src/call_back/CallBack.ts",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/PLMatlhape/Node-Project-Tsk2#readme",
   "devDependencies": {
-   "@types/node": "^24.3.1",
+    "@types/node": "^24.3.1",
     "axios": "^1.6.0",
     "dotenv": "^16.6.1",
     "rimraf": "^5.0.0",

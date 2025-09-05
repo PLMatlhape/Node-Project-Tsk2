@@ -1,5 +1,5 @@
-import https from 'https';
-import { WeatherData, NewsResponse } from '../types/index';
+import * as https from 'https';
+import type { WeatherData, NewsResponse } from '../types/index';
 import { 
   buildWeatherUrl, 
   buildNewsUrl, 
@@ -8,7 +8,7 @@ import {
   formatError,
   detectUserLocation,
   locationToCoordinates,
-  LocationInfo
+  type LocationInfo
 } from '../utils/MyApi';
 import { displayConfig } from '../utils/Configs';
 
